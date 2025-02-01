@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PinkPlate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="knife.jpg" alt="Logo" class="logo"> 
+            <h1>PinkPlate</h1>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="map.html">Map</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2>Welcome to PinkPlate delivery services!</h2>
+        <p>Below are a couple of our Highest rated dishes of this week</p>
+
+        <div class="dish-container">
+            <div class="dish-box">
+                <img src="sush.jpg" alt="SushiHut" class="dish-image"> 
+                <h3>SushiHut</h3>
+                <button class="order-button"  onclick="location.href='menu.html'">Order</button>
+            </div>
+            <div class="dish-box">
+                <img src="grill.jpg" alt="TheGrill" class="dish-image"> 
+                <h3>TheGrill</h3>
+                <button class="order-button" onclick="location.href='menu.html'">Order</button>
+            </div>
+            <div class="dish-box">
+                <img src="cheese.webp" alt="SweetTreats" class="dish-image"> 
+                <h3>SweetTreats</h3>
+                <button class="order-button" onclick="location.href='menu.html'">Order</button>
+            </div>
+        </div>
+
+        <!-- Truck Image Section -->
+        <div class="truck-image-container">
+            <img src="truck.png" alt="Delivery Truck" class="truck-image"> <!-- Replace with your truck image -->
+        </div>
+
+        <div class="bottom-content">
+            <div class="left-side">
+                <p>PinkPlate delivery is one of the most highly rated delivery services in Barcelona. Below are some of our customer favorite restaurants we recommend to our first-time users.</p>
+                
+                <div class="button-container">
+                    <a href="menu.html" class="image-button" style="background-image: url('grill.jpg');">
+                        <strong>TheGrill</strong>
+                    </a>
+                    <a href="menu.html" class="image-button" style="background-image: url('rose.jpg');">
+                        <strong>La Rosa Plata</strong>
+                    </a>
+                    <a href="menu.html" class="image-button" style="background-image: url('baked.jpg');">
+                        <strong>BunsnBake</strong>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="right-side">
+                <h2>REGISTER AS A MEMBER OF PINKPLATE TO EARN POINTS AND GAIN A FREE MEAL</h2>
+                <button class="register-button" onclick="location.href='register.html'">Register Now ➔</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 PinkPlate. All rights reserved.</p>
+    </footer>
+</body>
+</html>

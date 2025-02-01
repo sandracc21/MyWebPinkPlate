@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Trends - PinkPlate</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="knife.jpg" alt="Logo" class="logo"> <!-- Add your image here -->
+            <h1>PinkPlate</h1>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="map.html">Map</a></li> <!-- Link to the Trends page -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="map-container">
+            <h2>Find restaurants</h2>
+            <button id="show-map" class="big-button">Show Map</button> <!-- Button to show the map -->
+            <div id="map" style="height: 400px; width: 100%; display: none;"></div> <!-- Container for the map -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 PinkPlate. All rights reserved.</p>
+    </footer>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyJU3xHyvW77zw2YzuJTXr_3PWtKoRkPY"></script> <!-- Load Google Maps API -->
+    <script src="map.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
