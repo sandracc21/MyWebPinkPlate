@@ -182,7 +182,7 @@ p {
 }
 
 
-
+/* css for contact */
 .contact-header {
     font-weight: bold;
     font-size: 1.5em;
@@ -211,7 +211,7 @@ p {
 }
 
 
-
+/* css for map */
 
 .map-container {
     margin: 20px auto;
@@ -249,7 +249,7 @@ h2 {
 
 /* Hidden Class */
 .hidden {
-    display: none; /* Keep the hidden class for toggling visibility */
+    display: none; 
 }
 
 
@@ -344,9 +344,9 @@ h2 {
 
 .info-container p {
     margin: 10px 0;}
-.hidden {
-    display: none;
-} .menu-link {
+
+/* menu css */
+.menu-link {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
