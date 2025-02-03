@@ -1,13 +1,13 @@
 // Function to toggle dropdown for menu sections
 function toggleDropdown(section) {
-    // Close other dropdowns
+    
     const sections = document.querySelectorAll('.menu-section');
     sections.forEach(s => {
         if (s !== section) {
             s.classList.remove('active');
         }
     });
-    // Toggle the clicked section
+    
     section.classList.toggle('active');
 }
 
