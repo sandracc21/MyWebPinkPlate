@@ -1,6 +1,5 @@
 // Function to toggle dropdown for menu sections
 function toggleDropdown(section) {
-    
     const sections = document.querySelectorAll('.menu-section');
     sections.forEach(s => {
         if (s !== section) {
